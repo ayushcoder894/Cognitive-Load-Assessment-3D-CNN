@@ -5,8 +5,7 @@ This script processes CSV files containing MediaPipe 468 landmarks stored in
 behaviroal_AU_X and behaviroal_AU_Y columns and divides them into 12 strategic 
 facial regions for efficient TLX prediction analysis.
 
-Author: Jaynab
-Date: August 28, 2025
+
 Target: Efficient 12-region division with 283 optimized landmarks (60.5% of 468)
 """
 
@@ -358,3 +357,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
