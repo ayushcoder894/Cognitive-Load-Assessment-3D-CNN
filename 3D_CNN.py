@@ -10,7 +10,6 @@ from sklearn.preprocessing import RobustScaler, StandardScaler
 from sklearn.metrics import mean_absolute_error, r2_score, mean_squared_error
 import warnings
 warnings.filterwarnings('ignore')
-
 class StateOfArtModel:
     def __init__(self, train_dir, val_dir, test_dir, output_dir):
         self.train_dir = train_dir
