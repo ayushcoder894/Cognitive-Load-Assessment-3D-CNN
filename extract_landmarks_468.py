@@ -5,8 +5,8 @@ This script processes student videos from the specified folder,
 extracts 468 MediaPipe face landmarks per frame, and saves them
 in CSV format matching the given example.
 
-Author: Jaynab
-Date: August 31, 2025
+
+
 """
 
 # Handling missing dependencies in Docker environments
@@ -365,3 +365,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
